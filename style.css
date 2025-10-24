@@ -132,6 +132,8 @@ body {
     .projects {
         display: flex;
         flex-wrap: wrap;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
         justify-content: center;
         gap: 1.5rem;
     }
@@ -166,13 +168,9 @@ body {
         gap: 1rem;
     }
 
-    .stats {
+    .projects {
         flex-direction: column;
         align-items: center;
-    }
-
-    .github-stats {
-        flex-direction: column;
     }
 }
 
